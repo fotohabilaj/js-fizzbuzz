@@ -11,6 +11,14 @@ for(let i=1; i<101; i++){
         }
         
         
+    } else if(i % 5==0){
+        if(i % 15==0){
+            console.log(i,'fizzbuzz');
+            
+        }else{
+           console.log(i, 'buzz'); 
+        }
+           
     }
     console.log(i);
     
