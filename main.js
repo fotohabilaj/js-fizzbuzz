@@ -2,6 +2,16 @@
 //fizzbuzz su quelli di 15
 //elementi necessari for, if else, n%3;5;15==0, log
 for(let i=1; i<101; i++){
+    if(i % 3==0){
+        if(i % 15==0){
+            console.log(i,'fizzbuzz');
+            
+        }else{
+           console.log(i, 'fizz'); 
+        }
+        
+        
+    }
     console.log(i);
     
 }
